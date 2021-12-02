@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(51, 118, 156);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#base{
+    width:25em;
+    height:25em;
+    background-color: rgb(231, 217, 199);
+    border-radius:50%;
+    border: solid 2em rgb(163, 25, 25);
+    transform:translateX(-40%);
+    
+}
+
+#ponteiros{
+    transform: translateY(1em);
+}
+.point{
+    width:0.5em;
+    height:23em;
+    background-color:rgb(34, 34, 34);
+    position:absolute;
+    margin-left:12.25em;
+}
+
+#thirty{
+    transform:rotate(30deg);
+}
+#sess{
+    transform:rotate(60deg);
+}
+#nov{
+    transform:rotate(90deg);
+}
+#cvin{
+    transform:rotate(120deg);
+}
+#ccinq{
+    transform:rotate(150deg);
+}
+#cover{
+    width:20em;
+    height:20em;
+    background-color: rgb(231, 217, 199);
+    border-radius: 50%;
+    position:absolute;
+    margin:2.5em;
+    margin-top:1.5em;
+
+}
+
+#interior{
+    display:flex;
+    align-items:flex-end;
+    justify-content: center;
+    margin-top:10.5em;
+}
+
+
+.ponteiros{
+    transform-origin:bottom center;
+    position:absolute;
+    margin:auto;
+
+}
+
+#horas{
+    width:1em;
+    height:7em;
+    background-color:rgb(34, 34, 34);
+   
+}
+
+#minutos{
+    width:0.8em;
+    height:11em;
+    background-color:rgb(34, 34, 34);
+}
+
+#segundos{
+    width:0.1em;
+    height:10em;
+    background-color:rgb(163, 25, 25);
+}
+
+#centro{
+    width:2em;
+    height:2em;
+    background-color:rgb(34, 34, 34);
+    border-radius:50%;
+    transform:translateY(1em);
+}
+
+#texto{
+    color:rgb(231, 217, 199);
+    font:40px Verdana, sans-serif; 
+    position:static;
+    transition:font-size 0.3s;
+}
+
+#texto:hover{
+    font-size:45px;
+}
